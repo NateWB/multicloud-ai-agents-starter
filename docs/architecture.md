@@ -33,7 +33,8 @@ plus routes, not a new link to every other network.
 ## Identity
 
 Entra ID as the single identity plane: native in Azure, SAML into AWS IAM Identity Center, and Workforce
-Identity Federation into GCP (`docs/identity-gcp-federation.md`). Entra handles authentication. Each cloud
+Identity Federation into GCP (`docs/identity-gcp-federation.md`; the AWS steps are in
+`docs/identity-aws-identity-center.md`). Entra handles authentication. Each cloud
 still owns its own authorization (roles and policies).
 
 ## What this lab leaves out

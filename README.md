@@ -16,6 +16,7 @@ architecture looks the way it does, review what the agent produces, and own the 
    `prompts/01-add-spoke.md`. `docs/architecture.md` explains the design and the address plan.
 3. **Rebuild the lab.** `terraform/network/` builds the backbone: AWS Transit Gateway to Azure and GCP.
    Read its README first for prerequisites and cost. Then run the spoke prompt in your agent.
+   The identity legs are optional and manual: `docs/identity-gcp-federation.md` and `docs/identity-aws-identity-center.md`.
 4. **Practice troubleshooting.** `exercises/break-and-fix/` breaks one route so you can diagnose it. It contains the
    answer key, so read its README before opening anything else.
 
