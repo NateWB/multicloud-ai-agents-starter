@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+tfplan
+*.tfplan
+
+# Secrets / credentials - never commit
+.env
+*.pem
+*.key
+credentials*
+.aws/
+.azure/
+private/
+
+# OS / editor
+.DS_Store
+.vscode/
+__pycache__/
+.venv/
